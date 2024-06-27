@@ -1,0 +1,7 @@
+---
+- name: this is just a test
+  hosts: host01
+  gather_facts: true
+  tasks:
+  - name: ping test
+    ping:
